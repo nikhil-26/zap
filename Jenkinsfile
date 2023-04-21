@@ -5,9 +5,9 @@ pipeline{
         stage('Run DAST'){
             steps{
                 script{
-                     ret = 
                      sh "pwd"    
                      sh "ls"
+                     sh "docker images"
                 }
             }
         }}}

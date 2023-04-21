@@ -7,6 +7,7 @@ pipeline{
                 script{
                      sh "pwd"    
                      sh "ls"
+                     sh "whoami"
                      sh "docker images"
                 }
             }

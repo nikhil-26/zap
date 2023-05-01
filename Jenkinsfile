@@ -12,7 +12,7 @@ def scan_type
                  name: 'TARGET'
  
          booleanParam defaultValue: true,
-                 description: 'Parameter to know if wanna generate report.',
+                 description: 'Select to generate report.',
                  name: 'GENERATE_REPORT'
      }
      stages {
